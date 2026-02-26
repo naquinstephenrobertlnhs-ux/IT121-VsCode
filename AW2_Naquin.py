@@ -1,20 +1,17 @@
-Name = "Stephen Robert Z. Naquin"
-age = 18
-Heigth = 1.72
-Currently_Working = True
+while True:
+    password = str(input("Enter the password: "))
+    
+    has_letter = False
+    has_number = False
 
-print("Fullname:",Name)
-print(type(Name))
-print()
+    for ch in password:
+        if ch.isalpha():
+            has_letter = True
+        elif ch.isdigit():
+            has_number = True
 
-print("Age:",age)
-print(type(age))
-print()
-
-print("Heigth_in_meters:", Heigth)
-print(type(Heigth))
-print()
-
-print("Currently_Working?:", Currently_Working)
-print()
-print(type(Currently_Working))
+    if has_letter and has_number:
+        print("Password Accepted!")
+        break
+    else:
+        print("Password must contain at least one letter and one number. Please try again.")
