@@ -1,17 +1,25 @@
-while True:
-    password = str(input("Enter the password: "))
-    
-    has_letter = False
-    has_number = False
+name = "Naquin, Stephen Robert Z."
+age = 18
+height = 172
+weight = 52
+currently_working = True
 
-    for ch in password:
-        if ch.isalpha():
-            has_letter = True
-        elif ch.isdigit():
-            has_number = True
+print("Name: ", name)
+print(type(name))
+print()
 
-    if has_letter and has_number:
-        print("Password Accepted!")
-        break
-    else:
-        print("Password must contain at least one letter and one number. Please try again.")
+print("Age: ", age)
+print(type(age))
+print()
+
+print("Height: ", height)
+print(type(height))
+print()
+
+print("Weight: ", weight)
+print(type(weight))
+print()
+
+print("Currently working: ", currently_working)
+print(type(currently_working))
+print()
