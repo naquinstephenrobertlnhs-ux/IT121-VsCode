@@ -1,8 +1,4 @@
-password = "user123"
+name = input("What is your name? ")
+age = input("What is your age? ")
 
-user_input = input("Enter your password: ")
-
-if user_input == password:
-    print("Logged in successfully.")
-else:
-    print("Access Denied.")
+print("Hello " + name + "! You are " + age + " years old.")
