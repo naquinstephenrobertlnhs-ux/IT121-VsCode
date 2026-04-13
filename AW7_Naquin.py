@@ -56,7 +56,7 @@ balance = 1000
 
 while True:
     print("------------------------------------")
-    print("\tWelcome to Abank")
+    print("\tWelcome to Bank")
     print("------------------------------------")
 
     print("\t1. Check My Balance")
